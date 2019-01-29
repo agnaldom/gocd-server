@@ -6,8 +6,11 @@ RUN  curl --location --fail  https://github.com/Vincit/gocd-slack-task/releases/
 
 RUN curl --location --fail  https://github.com/tomzo/gocd-rocketchat-plugin/releases/download/0.1.1/gocd-rocketchat-plugin-0.1.1.jar > /godata/plugins/external/gocd-rocketchat-plugin-0.1.1.jar
 RUN curl --location --fail  https://github.com/gocd-contrib/email-notifier/releases/download/0.2-exp/email-notifier-0.2.jar > /godata/plugins/external/email-notifier-0.2.jar
-RUN curl --location --fail  https://dl.bintray.com/suhanlee/maven/com/devsh/suhanlee/slack-message/0.1.3/:slack-message-0.1.3-sources.jar > /godata/plugins/external/sns-notification-plugin-0.7.jar 
+
+RUN curl --location --fail  https://dl.bintray.com/suhanlee/maven/com/devsh/suhanlee/slack-message/0.1.3/:slack-message-0.1.3-sources.jar > /godata/plugins/external/slack-message-0.1.3-sources.jar
+
 RUN curl --location --fail  https://github.com/paullalonde/gocd-sns-notification-plugin/releases/download/v0.7/sns-notification-plugin-0.7.jar > /godata/plugins/external/sns-notification-plugin-0.7.jar
+
 RUN curl --location --fail  https://github.com/gocd-contrib/google-oauth-authorization-plugin/releases/download/2.0.0/google-oauth-authorization-plugin-2.0.0-7.jar > /godata/plugins/external/google-oauth-authorization-plugin-2.0.0-7.jar 
 RUN curl --location --fail https://github.com/cnorthwood/gocd-tls-auth/releases/download/2.0.0/gocd-tls-auth-2.0.0.jar > /godata/plugins/external/gocd-tls-auth-2.0.0.jar
 RUN curl --location --fail https://github.com/gocd-contrib/guest-login-plugin/releases/download/1.0.2/gocd-guest-login-plugin-1.0.2-27.jar > /godata/plugins/external/gocd-guest-login-plugin-1.0.2-27.jar
