@@ -17,8 +17,8 @@ RUN curl --location --fail https://github.com/gocd-contrib/guest-login-plugin/re
 RUN curl --location --fail https://github.com/4finance/go-plugin-groovy/releases/download/1.0.1/go-plugin-groovy-1.0.1.jar > /godata/plugins/external/go-plugin-groovy-1.0.1.jar 
 RUN curl --location --fail https://github.com/tomzo/gocd-json-config-plugin/releases/download/0.2.1/json-config-plugin-0.2.1.jar > /godata/plugins/external/json-config-plugin-0.2.1.jar 
 RUN curl --location --fail https://github.com/tomzo/gocd-yaml-config-plugin/releases/download/0.6.2/yaml-config-plugin-0.6.2.jar > /godata/plugins/external/yaml-config-plugin-0.6.2.jar 
-RUN curl --location --fail https://github.com/gocd/kubernetes-elastic-agents/releases/download/2.1.0-123/kubernetes-elastic-agent-2.1.0-123.jar > /godata/plugins/external/kubernetes-elastic-agent-2.1.0-123.jar
-RUN curl --location --fail https://github.com/gocd-contrib/docker-elastic-agents/releases/download/v2.2.0/docker-elastic-agents-2.2.0-187.jar > /godata/plugins/external/docker-elastic-agents-2.2.0-187.jar 
+#RUN curl --location --fail https://github.com/gocd/kubernetes-elastic-agents/releases/download/2.1.0-123/kubernetes-elastic-agent-2.1.0-123.jar > /godata/plugins/external/kubernetes-elastic-agent-2.1.0-123.jar
+#RUN curl --location --fail https://github.com/gocd-contrib/docker-elastic-agents/releases/download/v2.2.0/docker-elastic-agents-2.2.0-187.jar > /godata/plugins/external/docker-elastic-agents-2.2.0-187.jar 
 RUN curl --location --fail https://github.com/varchev/go-npm-poller/releases/download/0.3.1/go-npm-poller.jar > /godata/plugins/external/go-npm-poller.jar
 RUN curl --location --fail https://github.com/eaiesb/Gocd-Artifactory-Plugin/releases/download/1.0/Artifactory-Plugin.jar > /godata/plugins/external/Artifactory-Plugin.jar 
 RUN curl --location --fail  https://github.com/gocd-contrib/gem-repo-poller/releases/download/0.1/gem-repo-poller-0.1.jar > /godata/plugins/external/gem-repo-poller-0.1.jar 
